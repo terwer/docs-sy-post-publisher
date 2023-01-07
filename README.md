@@ -28,6 +28,8 @@
 
 ## 参考
 
+https://github.com/vercel/community/discussions/38#discussioncomment-2719295
+
 https://www.docsy.dev/docs/adding-content/navigation/#configure-algolia-docsearch
 
 https://docsearch.algolia.com/docs/tips/
