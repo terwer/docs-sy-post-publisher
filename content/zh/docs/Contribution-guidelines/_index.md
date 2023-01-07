@@ -1,9 +1,9 @@
 ---
-title: "Contribution Guidelines"
-linkTitle: "Contribution Guidelines"
-weight: 10
+title: "参与贡献"
+linkTitle: "参与贡献"
+weight: 5
 description: >
-  How to contribute to the docs
+  帮助我们改善文档
 ---
 
 {{% pageinfo %}}
