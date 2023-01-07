@@ -21,9 +21,6 @@ description: 从这里开始一步一步上手使用。
 isCJKLanguage: true
 linkTitle: 开始上手
 weight: 1
-menu:
-  main:
-    weight: 1
 ---
 
 ## 安装
