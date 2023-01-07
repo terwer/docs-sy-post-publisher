@@ -10,13 +10,22 @@ tags:
 categories:
   - zh
   - docs
-lastmod: '2023-01-07 19:46:30'
+lastmod: '2023-01-07 19:45:11'
 toc: true
 keywords: 文档,sy-p-003,sy-p-010
 description: >-
   这里是sypostpublisher的文档。文档目录配置入门视频开始上手三种使用方式简介思源笔记挂件模式chrome浏览器扩展模式vercel远程部署模式平台配置博客园语雀wordpressjvueconferencevuepress链滴知识仓库jekyll（githubpages）hugohexonuxtnexttypeecho高级使用之文章与平台绑定高级使用之动态新增平台metaweblogapiwordpressgithubpages系列高级使用之自定义页面布局样式组件化拖拽式所见即所得的设计高级使
 isCJKLanguage: true
+linkTitle: "文档"
+weight: 20
+menu:
+  main:
+    weight: 20
 ---
+
+{{% pageinfo %}}
+This is a placeholder page that shows you how to use this template site.
+{{% /pageinfo %}}
 
 这里是 [sy-post-publisher](https://github.com/terwer/src-sy-post-publisher) 的文档。
 
