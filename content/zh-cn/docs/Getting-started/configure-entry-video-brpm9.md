@@ -14,7 +14,7 @@ lastmod: '2023-01-07 20:07:00'
 toc: true
 keywords: 配置,入门,视频,sy-p-003
 description: >-
-  哔哩哔哩推荐哔哩哔哩观看https_wwwbilibilicomvideobvydcf?zw百度网盘下载观看链接_https_panbaiducomsgvjjkoijzpfgiifeoy_a?pwd=vo提取码_vo​‍
+  观看配置入门视频，快速上手使用。
 isCJKLanguage: true
 ---
 
