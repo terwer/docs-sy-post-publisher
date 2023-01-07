@@ -168,8 +168,8 @@ sidebar_search_disable = false
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = '感谢您的肯定！ <a href="https://github.com/terwer/docs-sy-post-publisher/issues/new">如果您有好的想法也欢迎您告诉我们，我们会虚心听取并改进</a> ！'
-no = '很遗憾未能帮到你，请 <a href="https://github.com/terwer/docs-sy-post-publisher/issues/new">告诉我们有哪些需要高进的地方</a> 。'
+yes = '感谢您的肯定！ <a href="https://github.com/terwer/docs-sy-post-publisher/issues/new">如果您有好的想法也欢迎您告诉我们，谢谢</a> ！'
+no = '很遗憾未能帮到你，请 <a href="https://github.com/terwer/docs-sy-post-publisher/issues/new">告诉我们有哪些需要改进的地方</a> 。'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 
