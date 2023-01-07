@@ -1,6 +1,8 @@
 # docs-sy-post-publisher
 
-思源笔记发布工具使用帮助文档
+[思源笔记发布工具](https://github.com/terwer/src-sy-post-publisher) 使用帮助文档
+
+![](https://img1.terwer.space/api/public/202301071812702.png)
 
 ## 参与贡献
 
