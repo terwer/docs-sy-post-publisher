@@ -16,7 +16,7 @@
 
 3. 本地查看效果
 
-   本文档基于 [HUGO](https://gohugo.io) 生成，可直接使用以下命令查看效果（需要安装HUGO，可参考HUGO官方文档 [安装HUGO](https://gohugo.io/installation/macos/#homebrew) ）：
+   本文档基于 [HUGO](https://gohugo.io) 生成，可参考HUGO官方文档 [安装HUGO](https://gohugo.io/installation/macos/#homebrew) ， 使用以下命令查看效果：
 
    ```bash
    hugo server
