@@ -38,6 +38,8 @@ https://docsearch.algolia.com/docs/tips/
 
 https://www.docsy.dev/docs/language/#internationalization-bundles
 
+https://github.com/tobiaskohlbau/docsy/commit/ed57f05f89fe38837a69418e2cb5b33c54d1ee26
+
 ## 感谢
 
 感谢 [Docsy](https://github.com/google/docsy) 项目提供的文档模板

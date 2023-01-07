@@ -1,0 +1,55 @@
+{{ $context := .context }}
+{{ $taxo := .taxo }}
+{{ if (gt (len ($context.GetTerms $taxo)) 0)}}
+<div class="taxonomy taxonomy-terms-article taxo-{{ urlize $taxo }}">
+  <h5 class="taxonomy-title taxonomy-title-tags">{{ i18n "taxonomy_tags" }}：</h5>
+  <h5 class="taxonomy-title taxonomy-title-categories">{{ i18n "taxonomy_categories" }}：</h5>
+  <h5 class="taxonomy-title {{ $taxo }}">{{ humanize $taxo }}:</h5>
+  <ul class="taxonomy-terms">
+    {{ range ($context.GetTerms $taxo) }}
+      <li><a class="taxonomy-term" href="{{ .Permalink }}" data-taxonomy-term="{{ urlize .LinkTitle }}"><span class="taxonomy-label">{{ .LinkTitle }}</span></a></li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+
+<script>
+  $(document).ready(function () {
+    $("h5.tags").each(function (i, n) {
+      var cls = $(n).attr("class")
+      console.log("cls=>",cls)
+      console.log($(n).siblings())
+      $(n).hide()
+
+      if(cls.includes("tags")){
+        $(n).siblings().each(function (k, m) {
+          var scls = $(m).attr("class")
+          console.log("scls=>",scls)
+
+          if(!scls.includes("taxonomy-title-tags") && !scls.includes("taxonomy-terms")){
+            $(m).hide()
+          }
+        })
+      }
+    })
+
+    // categories
+    $("h5.categories").each(function (i, n) {
+      var cls = $(n).attr("class")
+      console.log("cls=>",cls)
+      console.log($(n).siblings())
+      $(n).hide()
+
+      if(cls.includes("categories")){
+        $(n).siblings().each(function (k, m) {
+          var scls = $(m).attr("class")
+          console.log("scls=>",scls)
+
+          if(!scls.includes("taxonomy-title-categories") && !scls.includes("taxonomy-terms")){
+            $(m).hide()
+          }
+        })
+      }
+    })
+  })
+</script>
