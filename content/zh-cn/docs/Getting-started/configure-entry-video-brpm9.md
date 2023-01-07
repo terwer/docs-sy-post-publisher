@@ -1,8 +1,8 @@
 ---
 title: 配置入门视频
+weight: 1
 slug: configure-entry-video-brpm9
 url: /post/configure-entry-video-brpm9.html
-date: '2022-09-28 11:46:22'
 tags:
   - 配置
   - 入门

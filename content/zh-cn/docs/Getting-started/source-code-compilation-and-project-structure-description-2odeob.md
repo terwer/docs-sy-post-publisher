@@ -1,8 +1,8 @@
 ---
 title: 源码编译及项目结构说明
+weight: 2
 slug: source-code-compilation-and-project-structure-description-2odeob
 url: /post/source-code-compilation-and-project-structure-description-2odeob.html
-date: '2023-01-08 02:29:46'
 tags:
   - 文件
   - 统一
@@ -16,7 +16,7 @@ lastmod: '2023-01-08 02:41:06'
 toc: true
 keywords: 文件,统一,脚本,源码,编译
 description: >-
-  项目结构说明at_startmindmapskinparambackgroundcolortransparent_includehttps_staticrsterwerosscnbeijingaliyuncscomlibumlstarterskinpumlsypostpublisherapi提供统一的需要server环境的api请求代理assets资源文件样式文件等components通用组件composables可复用单元layouts页面布局locals国际化pages页面统一出口plugins插件s
+  项目结构说明与源码编译指南。
 isCJKLanguage: true
 ---
 

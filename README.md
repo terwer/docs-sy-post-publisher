@@ -14,7 +14,7 @@
     git clone git@github.com:terwer/docs-sy-post-publisher.git --depth 1
     ```
 
-2. 直接修改 `content/<国际化>/` 目录里面的对应内容即可。例如：中文对应 `content/zh` 目录
+2. 直接修改 `content/<国际化>/` 目录里面的对应内容即可。例如：简体中文对应 `content/zh-cn` 目录
 
 3. 本地查看效果
 
