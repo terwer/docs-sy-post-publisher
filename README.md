@@ -2,7 +2,7 @@
 
 [思源笔记发布工具](https://github.com/terwer/src-sy-post-publisher) 使用帮助文档
 
-![](https://img1.terwer.space/api/public/202301072138789.png)
+![](https://img1.terwer.space/api/public/202301072329859.png)
 
 ## 参与贡献
 
@@ -35,6 +35,8 @@ https://github.com/vercel/community/discussions/38#discussioncomment-2719295
 https://www.docsy.dev/docs/adding-content/navigation/#configure-algolia-docsearch
 
 https://docsearch.algolia.com/docs/tips/
+
+https://www.docsy.dev/docs/language/#internationalization-bundles
 
 ## 感谢
 

@@ -1,9 +1,9 @@
 baseURL = "/"
-title = "帮助文档 - 思源笔记发布工具"
+title = "思源笔记发布工具"
 
 # Language settings
-contentDir = "content/zh"
-defaultContentLanguage = "zh"
+contentDir = "content/zh-cn"
+defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 enableMissingTranslationPlaceholders = true
 
@@ -58,24 +58,23 @@ id = "G-LPC2JKLFPK"
 
 # Language configuration
 [languages]
-[languages.zh]
-title = "帮助文档 - 思源笔记发布工具"
+[languages.zh-cn]
+title = "思源笔记发布工具"
 description = "思源笔记发布工具使用帮助文档"
 languageName ="简体中文"
-contentDir = "content/zh"
+contentDir = "content/zh-cn"
 time_format_default = "2006-02-01"
 time_format_blog = "2006-02-01"
 
 [languages.en]
-title = "Help Document - Siyuan Note Publishing Tools"
+title = "Siyuan Note Publishing Tools"
 description = "Siyuan Note Publishing Tools Use Help Documents"
 languageName ="English"
 contentDir = "content/en"
 time_format_default = "2006/02/01"
-time_format_blog = "2006/02/01"
 
 [languages.zh-hk]
-title = "幫助文檔 - 思源筆記發布工具"
+title = "思源筆記發布工具"
 description = "思源筆記發布工具使用幫助文檔"
 languageName ="繁體中文"
 contentDir = "content/zh-hk"
@@ -99,7 +98,7 @@ time_format_blog = "2006-02-01"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "sy-post-publisher 保留所有权益."
+copyright = "sy-post-publisher"
 privacy_policy = "https://github.com/terwer/src-sy-post-publisher/blob/dev/policy.md"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -145,14 +144,14 @@ algolia_docsearch = false
 offlineSearch = true
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
-prism_syntax_highlighting = false
+prism_syntax_highlighting = true
 
 # User interface configuration
 [params.ui]
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 # Set to true to disable the About link in the site footer
-footer_about_disable = false
+footer_about_disable = true
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
 navbar_logo = true
 # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
@@ -181,36 +180,36 @@ enable = false
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-  name = "User mailing list"
+  name = "邮件"
   url = "mailto:youweics@163.com"
   icon = "fa fa-envelope"
-  desc = "Discussion and help from your fellow users"
+  desc = "邮件讨论"
 [[params.links.user]]
   name ="Twitter"
   url = "https://twitter.com/youweitang"
   icon = "fab fa-twitter"
-  desc = "Follow us on Twitter to get the latest news!"
+  desc = "在 Twitter 上关注我们的最新消息"
 [[params.links.user]]
   name = "Stack Overflow"
   url = "https://stackexchange.com/users/4185736/terwer"
   icon = "fab fa-stack-overflow"
-  desc = "Practical questions and curated answers"
+  desc = "提问题，找答案"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
   url = "https://github.com/terwer/src-sy-post-publisher"
   icon = "fab fa-github"
-  desc = "Development takes place here!"
+  desc = "来和我们一起开发"
 [[params.links.developer]]
   name = "Weibo"
   url = "https://weibo.com/youweics"
   icon = "fab fa-weibo"
-  desc = "Chat with other project developers"
+  desc = "在微博上关注我们的最新消息"
 [[params.links.developer]]
-  name = "Developer mailing list"
+  name = "开发者邮件列表"
   url = "mailto:youweics@163.com"
   icon = "fa fa-envelope"
-  desc = "Discuss development issues around the project"
+  desc = "邮件讨论项目最新进展"
 
 # hugo module configuration
 

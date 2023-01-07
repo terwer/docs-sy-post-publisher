@@ -1,0 +1,96 @@
++++
+title = "思源笔记发布工具"
+linkTitle = "思源笔记发布工具"
+
++++
+
+<style>
+	.container a:hover{
+		color: #e3ad36 !important;
+	}
+</style>
+
+{{< blocks/cover title="欢迎使用思源笔记发布工具 " image_anchor="top" height="full" color="orange" >}}
+<div class="mx-auto">
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="{{< relref "/docs" >}}">
+		开始使用 <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+	</a>
+	<a class="btn btn-lg btn-primary mr-3 mb-4" target="_blank" href="https://github.com/terwer/src-sy-post-publisher">
+		项目源码 <i class="fab fa-github ml-2 "></i>
+	</a>
+	<p class="lead mt-5"> 将 思源笔记 的文章发布到支持的平台的 思源笔记挂件</p>
+	{{< blocks/link-down color="info" >}}
+</div>
+{{< /blocks/cover >}}
+
+
+{{% blocks/lead color="primary" %}}
+
+<div style="text-align: left;">
+
+- 使用之前请先下载安装思源笔记，并且保持思源笔记处于打开状态。
+
+- 目前支持基于 Github 、 metaweblog API 、Wordpress API 的平台
+
+- 同时提供了一个统一通用的 API 适配器，https://github.com/terwer/src-sy-post-publisher/blob/main/utils/api.ts ， 让适配任何平台成为可能。
+
+- 目前已经内置支持的平台
+
+  - Wordpress
+
+  - 博客园
+
+  - 语雀
+
+  - Metaweblog API
+
+  - Vuepress
+
+  - HUGO
+
+  - Docsy
+
+  - Hexo
+
+  - Jekyll
+
+  - Vitepress
+
+  - Nuxt content
+
+  - Nextra
+
+  - 链滴社区
+
+- 最近更新<sup>0.6.0</sup>
+
+  2022-12-29
+
+  - 1. 支持设置 Anki 牌组标记
+
+  - 2. 支持 PicGO 图床
+
+更多新特性介绍请访问 [更新历史](https://github.com/terwer/src-sy-post-publisher/blob/main/CHANGELOG.md)
+
+</div>
+
+{{% /blocks/lead %}}
+
+{{< blocks/section color="dark" >}}
+{{% blocks/feature icon="fa-lightbulb" title="核心特性" url="https://github.com/terwer/src-sy-post-publisher/blob/main/utils/api.ts" %}}
+
+100%兼容 Metaweblog API 以及 Github 平台
+
+并且提供了一个 [统一的API接口](https://github.com/terwer/src-sy-post-publisher/blob/main/utils/api.ts) ，理论上可集成任何平台
+
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-github" title="参与贡献" url="https://github.com/terwer/src-sy-post-publisher" %}}
+请直接在 **GitHub** 发起 [Pull Request](https://github.com/terwer/src-sy-post-publisher/pulls) 。 欢迎新成员加入！
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-twitter" title="关注我们" url="https://twitter.com/youweitang" %}}
+在 Twitter 上关注我们
+{{% /blocks/feature %}}
