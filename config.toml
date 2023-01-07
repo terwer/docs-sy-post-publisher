@@ -1,11 +1,10 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "帮助文档 - 思源笔记发布工具"
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+contentDir = "content/zh"
+defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
-# Useful when translating.
 enableMissingTranslationPlaceholders = true
 
 enableRobotsTXT = true
@@ -54,32 +53,33 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+id = "G-LPC2JKLFPK"
 
 # Language configuration
-
 [languages]
-[languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
-languageName ="English"
-# Weight used for sorting.
-weight = 1
-[languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
+[languages.zh]
+title = "帮助文档 - 思源笔记发布工具"
+description = "思源笔记发布工具使用帮助文档"
+languageName ="简体中文"
+contentDir = "content/zh"
+time_format_default = "2006-02-01"
+time_format_blog = "2006-02-01"
 
-[languages.fa]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-languageName ="فارسی"
-contentDir = "content/fa"
-time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
+[languages.en]
+title = "Help Document - Siyuan Note Publishing Tools"
+description = "Siyuan Note Publishing Tools Use Help Documents"
+languageName ="English"
+contentDir = "content/en"
+time_format_default = "2006/02/01"
+time_format_blog = "2006/02/01"
+
+[languages.zh-hk]
+title = "幫助文檔 - 思源筆記發布工具"
+description = "思源筆記發布工具使用幫助文檔"
+languageName ="繁體中文"
+contentDir = "content/zh-hk"
+time_format_default = "2006-02-01"
+time_format_blog = "2006-02-01"
 
 [markup]
   [markup.goldmark]
@@ -98,8 +98,8 @@ time_format_blog = "2006.01.02"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "The Docsy Authors"
-privacy_policy = "https://policies.google.com/privacy"
+copyright = "sy-post-publisher"
+privacy_policy = "https://github.com/terwer/src-sy-post-publisher/blob/dev/policy.md"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -123,9 +123,9 @@ version = "0.0"
 url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/google/docsy-example"
+github_repo = "https://github.com/terwer/docs-sy-post-publisher"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://github.com/terwer/src-sy-post-publisher"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -135,13 +135,13 @@ github_project_repo = "https://github.com/google/docsy"
 github_branch= "master"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "d72aa9b2712488cc3"
+# gcs_engine_id = "33b83ea2848b14903"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
 
 # Enable Lunr.js offline search
-offlineSearch = false
+offlineSearch = true
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
 prism_syntax_highlighting = false
@@ -181,33 +181,33 @@ enable = false
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
   name = "User mailing list"
-  url = "https://example.org/mail"
+  url = "mailto:youweics@163.com"
   icon = "fa fa-envelope"
   desc = "Discussion and help from your fellow users"
 [[params.links.user]]
   name ="Twitter"
-  url = "https://example.org/twitter"
+  url = "https://twitter.com/youweitang"
   icon = "fab fa-twitter"
   desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
   name = "Stack Overflow"
-  url = "https://example.org/stack"
+  url = "https://stackexchange.com/users/4185736/terwer"
   icon = "fab fa-stack-overflow"
   desc = "Practical questions and curated answers"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
-  url = "https://github.com/google/docsy"
+  url = "https://github.com/terwer/src-sy-post-publisher"
   icon = "fab fa-github"
   desc = "Development takes place here!"
 [[params.links.developer]]
-  name = "Slack"
-  url = "https://example.org/slack"
-  icon = "fab fa-slack"
+  name = "Weibo"
+  url = "https://weibo.com/youweics"
+  icon = "fab fa-weibo"
   desc = "Chat with other project developers"
 [[params.links.developer]]
   name = "Developer mailing list"
-  url = "https://example.org/mail"
+  url = "mailto:youweics@163.com"
   icon = "fa fa-envelope"
   desc = "Discuss development issues around the project"
 

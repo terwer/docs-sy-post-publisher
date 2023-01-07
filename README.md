@@ -1,138 +1,37 @@
-# Docsy Example
+# docs-sy-post-publisher
 
-[Docsy][] is a [Hugo theme module][] for technical documentation sites, providing easy
-site navigation, structure, and more. This **Docsy Example Project** uses the Docsy
-theme component as a hugo module and provides a skeleton documentation structure for you to use.
-You can clone/copy this project and edit it with your own content, or use it as an example.
+思源笔记发布工具使用帮助文档
 
-In this project, the Docsy theme component is pulled in as a Hugo module, together with other module dependencies:
+## 参与贡献
 
-```bash
-$ hugo mod graph
-hugo: collected modules in 566 ms
-hugo: collected modules in 578 ms
-github.com/google/docsy-example github.com/google/docsy@v0.5.1-0.20221017155306-99eacb09ffb0
-github.com/google/docsy-example github.com/google/docsy/dependencies@v0.5.1-0.20221014161617-be5da07ecff1
-github.com/google/docsy/dependencies@v0.5.1-0.20221014161617-be5da07ecff1 github.com/twbs/bootstrap@v4.6.2+incompatible
-github.com/google/docsy/dependencies@v0.5.1-0.20221014161617-be5da07ecff1 github.com/FortAwesome/Font-Awesome@v0.0.0-20220831210243-d3a7818c253f
-```
+如果你想帮助完善此文档，可按照以下步骤来进行：
 
-You can find detailed theme instructions in the [Docsy user guide][].
+1. `clone` 此项目到本地
 
-This Docsy Example Project is hosted on [Netlify][] at [example.docsy.dev][].
-You can view deploy logs from the [deploy section of the project's Netlify
-dashboard][deploys], or this [alternate dashboard][].
+    ```bash
+    git clone git@github.com:terwer/docs-sy-post-publisher.git --depth 1
+    ```
 
-This is not an officially supported Google product. This project is currently maintained.
+2. 直接修改 `content/<国际化>/` 目录里面的对应内容即可。例如：中文对应 `content/zh` 目录
 
-## Using the Docsy Example Project as a template
+3. 本地查看效果
 
-A simple way to get started is to use this project as a template, which gives you a site project that is set up and ready to use. To do this: 
-
-1. Click **Use this template**.
-
-2. Select a name for your new project and click **Create repository from template**.
-
-3. Make your own local working copy of your new repo using git clone, replacing https://github.com/me/example.git with your repo’s web URL:
-
-```bash
-git clone --depth 1 https://github.com/me/example.git
-```
-
-You can now edit your own versions of the site’s source files.
-
-If you want to do SCSS edits and want to publish these, you need to install `PostCSS`
-
-```bash
-npm install
-```
-
-## Running the website locally
-
-Building and running the site locally requires a recent `extended` version of [Hugo](https://gohugo.io).
-You can find out more about how to install Hugo for your environment in our
-[Getting started](https://www.docsy.dev/docs/getting-started/#prerequisites-and-installation) guide.
-
-Once you've made your working copy of the site repo, from the repo root folder, run:
-
-```
-hugo server
-```
-
-## Running a container locally
-
-You can run docsy-example inside a [Docker](https://docs.docker.com/)
-container, the container runs with a volume bound to the `docsy-example`
-folder. This approach doesn't require you to install any dependencies other
-than [Docker Desktop](https://www.docker.com/products/docker-desktop) on
-Windows and Mac, and [Docker Compose](https://docs.docker.com/compose/install/)
-on Linux.
-
-1. Build the docker image 
+   本文档基于 [HUGO](https://gohugo.io) 生成，可直接使用以下命令查看效果（需要安装HUGO，可参考HUGO官方文档 [安装HUGO](https://gohugo.io/installation/macos/#homebrew) ）：
 
    ```bash
-   docker-compose build
+   hugo server
    ```
+   
+   然后访问 http://localhost:1313 查看效果
 
-1. Run the built image
+4. 修改完成之后 `push` 到您自己的仓库，然后对 https://github.com/terwer/docs-sy-post-publisher 的 master 分支 发起 `pull request` 即可。`pull request` 合并完成之后，文档会自动构建完成并更新。
 
-   ```bash
-   docker-compose up
-   ```
+## 参考
 
-   > NOTE: You can run both commands at once with `docker-compose up --build`.
+https://www.docsy.dev/docs/adding-content/navigation/#configure-algolia-docsearch
 
-1. Verify that the service is working. 
+https://docsearch.algolia.com/docs/tips/
 
-   Open your web browser and type `http://localhost:1313` in your navigation bar,
-   This opens a local instance of the docsy-example homepage. You can now make
-   changes to the docsy example and those changes will immediately show up in your
-   browser after you save.
+## 感谢
 
-### Cleanup
-
-To stop Docker Compose, on your terminal window, press **Ctrl + C**. 
-
-To remove the produced images run:
-
-```console
-docker-compose rm
-```
-For more information see the [Docker Compose
-documentation](https://docs.docker.com/compose/gettingstarted/).
-
-## Troubleshooting
-
-As you run the website locally, you may run into the following error:
-
-```
-➜ hugo server
-
-INFO 2021/01/21 21:07:55 Using config file: 
-Building sites … INFO 2021/01/21 21:07:55 syncing static files to /
-Built in 288 ms
-Error: Error building site: TOCSS: failed to transform "scss/main.scss" (text/x-scss): resource "scss/scss/main.scss_9fadf33d895a46083cdd64396b57ef68" not found in file cache
-```
-
-This error occurs if you have not installed the extended version of Hugo.
-See this [section](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/#install-hugo) of the user guide for instructions on how to install Hugo.
-
-Or you may encounter the following error:
-
-```
-➜ hugo server
-
-Error: failed to download modules: binary with name "go" not found
-```
-
-This error occurs if you have not installed the `go` programming language on your system.
-See this [section](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/#install-go-language) of the user guide for instructions on how to install `go`.
-
-
-[alternate dashboard]: https://app.netlify.com/sites/goldydocs/deploys
-[deploys]: https://app.netlify.com/sites/docsy-example/deploys
-[Docsy user guide]: https://docsy.dev/docs
-[Docsy]: https://github.com/google/docsy
-[example.docsy.dev]: https://example.docsy.dev
-[Hugo theme module]: https://gohugo.io/hugo-modules/use-modules/#use-a-module-for-a-theme
-[Netlify]: https://netlify.com
+感谢 [Docsy](https://github.com/google/docsy) 项目提供的文档模板
