@@ -1,7 +1,6 @@
 ---
 title: 文档首页
 slug: readme-1j4ltp
-url: /post/readme-1j4ltp.html
 date: '2022-09-28 14:40:33'
 tags:
   - 文档
