@@ -13,7 +13,7 @@ categories:
   - zh-cn
   - blog
   - news
-lastmod: '2023-01-08 21:43:25'
+lastmod: '2023-01-08 22:21:47'
 toc: true
 keywords: 版本,马上,过年,今年,最后,开发日志
 description: 马上快过年了，今年的最后一个小版本 v0.6.1 预计将会在年前发布。‍
