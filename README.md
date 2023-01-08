@@ -26,7 +26,7 @@
    
    然后访问 http://localhost:1313 查看效果
 
-4. 修改完成之后 `push` 到您自己的仓库，然后对 https://github.com/terwer/docs-sy-post-publisher 的 master 分支 发起 `pull request` 即可。`pull request` 合并完成之后，文档会自动构建完成并更新。
+4. 修改完成之后 `push` 到您自己的仓库，然后对 https://github.com/terwer/docs-sy-post-publisher 的 `main` 分支 发起 `pull request` 即可。`pull request` 合并完成之后，文档会自动构建完成并更新。
 
 ## 参考
 
