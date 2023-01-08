@@ -7,7 +7,7 @@ tags:
   - sy-p-003
   - sy-p-010
 categories:
-  - zh
+  - zh-cn
   - docs
 lastmod: '2023-01-07 21:05:32'
 toc: true

@@ -9,7 +9,7 @@ tags:
   - 视频
   - sy-p-003
 categories:
-  - zh
+  - zh-cn
 lastmod: '2023-01-07 20:07:00'
 toc: true
 keywords: 配置,入门,视频,sy-p-003
