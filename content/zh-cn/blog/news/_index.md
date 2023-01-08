@@ -1,7 +1,7 @@
 
 ---
-title: "开发进展"
-linkTitle: "开发进展"
+title: "开发日志"
+linkTitle: "开发日志"
 weight: 20
 ---
 
