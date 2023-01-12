@@ -13,7 +13,7 @@ categories:
   - zh-cn
   - blog
   - releases
-lastmod: '2023-01-12 12:07:08'
+lastmod: '2023-01-12 13:23:20'
 toc: true
 keywords: 版本,优化,修复,变更,使用,sy-p-067
 description: >-
@@ -26,7 +26,25 @@ isCJKLanguage: true
 
 风雨送春归，飞雪迎春到。大家新年好呀，伴随着新年的到来，我们也惊喜的引来了经过细心打磨和优化的 `sy-post-pulisher`​ 的 `v0.6.7`​ 版本。
 
-自 ~~v0.6.1~~ 发布之后，我的内心其实是很忐忑的，结果果然发现了一些不能容忍的 bug ，因此，原本计划的终极版本 ~~v0.6.1~~ 也在紧急发布修复版本，到 `v0.6.7`​ 版本，才是终于感觉比较满意了。
+自 ~~v0.6.1~~ 发布之后，我的内心其实是很忐忑的，结果果然发现了一些不能容忍的 bug ，因此，原本计划的终极版本 ~~v0.6.1~~ 也在紧急发布修复版本，到 `v0.6.7`​​ 版本，才是终于感觉比较满意了。
+
+## 下载及安装
+
+思源笔记发布工具的安装步骤如下：
+
+从 `源码仓库 Release 发版页面`​​ 、 `Google Chrome 商店`​​ 、`Microsoft Edge 商店`​​ 下载插件或者在 `思源笔记集市`​​ 下载挂件并添加到页面。
+
+[源码仓库 Release 发版页面](https://github.com/terwer/src-sy-post-publisher/releases)
+
+[Google Chrome 商店 - 思源笔记发布工具](https://chrome.google.com/webstore/detail/%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0%E5%8F%91%E5%B8%83%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/gemlnnppcphbiimfjnobfgdkohjmgifm?hl=zh-CN)
+
+[思源笔记发布工具 - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/aejmkigifflimhjlhjkdckclhabbilee)
+
+思源笔记集市：设置 -> 集市 -> 挂件 -> sy-post-publisher
+
+## 开始上手
+
+参考：[快速配置](https://docs.publish.terwer.space/docs/getting-started/#%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE)
 
 ## 核心变更
 
