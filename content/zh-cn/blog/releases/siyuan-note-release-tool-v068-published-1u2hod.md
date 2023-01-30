@@ -11,11 +11,11 @@ tags:
 categories:
   - zh-cn
   - blog
-lastmod: '2023-01-30 21:00:35'
+  - releases
+lastmod: '2023-01-30 21:08:06'
 toc: true
 keywords: 思源,笔记,发布,工具,版本
-description: >-
-  版本说明在众多小伙伴离乡返岗之际我们也迎来了年的第一个小版本此版本主要解决思源笔记版本localstorage修改一级随机端口导致的重启无法读取配置问题。新特性一览提供通用的集成接口方便思源笔记主题集成本插件为了重构数据存储方案思源笔记内部使用json存储解决多空间随机端口问题下载及安装思源笔记发布工具的安装步骤如下_从源码仓库release发版页面​googlechrome商店​microsoftedge商店​下载插件或者在思源笔记集市​下载挂件并添加到页面。源码仓库release发版页面newgoog
+description: 此版本主要解决 思源笔记 2.6.3+ 版本 Localstorage 修改一级随机端口导致的重启无法读取配置问题。
 isCJKLanguage: true
 ---
 
