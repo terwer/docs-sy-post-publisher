@@ -68,11 +68,11 @@ isCJKLanguage: true
 
 [源码仓库 Release 发版页面](https://github.com/terwer/src-sy-post-publisher/releases) <sup>New</sup>
 
-[Google Chrome 商店 - 思源笔记发布工具](https://chrome.google.com/webstore/detail/%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0%E5%8F%91%E5%B8%83%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/gemlnnppcphbiimfjnobfgdkohjmgifm?hl=zh-CN) <sup> 发布中 </sup>
+[Google Chrome 商店 - 思源笔记发布工具](https://chrome.google.com/webstore/detail/%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0%E5%8F%91%E5%B8%83%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/gemlnnppcphbiimfjnobfgdkohjmgifm?hl=zh-CN) <sup> 已发布 </sup>
 
-[思源笔记发布工具 - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/aejmkigifflimhjlhjkdckclhabbilee) <sup> 发布中 </sup>
+[思源笔记发布工具 - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/aejmkigifflimhjlhjkdckclhabbilee) <sup> 已发布 </sup>
 
-思源笔记集市：设置 -> 集市 -> 挂件 -> sy-post-publisher <sup> 已发布，等待 D 大合并中 </sup>
+思源笔记集市：设置 -> 集市 -> 挂件 -> sy-post-publisher <sup> 已发布 </sup>
 
 ## 开始上手
 

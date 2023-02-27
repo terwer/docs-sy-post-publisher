@@ -24,6 +24,24 @@ isCJKLanguage: true
 
 经过一段时间的重构和优化之后，0.7.0 终于和大家见面了。
 
+## 下载及安装
+
+思源笔记发布工具的安装步骤如下：
+
+从 `源码仓库 Release 发版页面`​ 、 `Google Chrome 商店`​ 、`Microsoft Edge 商店`​ 下载插件或者在 `思源笔记集市`​ 下载挂件并添加到页面。
+
+[源码仓库 Release 发版页面](https://github.com/terwer/src-sy-post-publisher/releases) <sup>New</sup>
+
+[Google Chrome 商店 - 思源笔记发布工具](https://chrome.google.com/webstore/detail/%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0%E5%8F%91%E5%B8%83%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/gemlnnppcphbiimfjnobfgdkohjmgifm?hl=zh-CN) <sup> 已提交，审核中 </sup>
+
+[思源笔记发布工具 - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/aejmkigifflimhjlhjkdckclhabbilee) <sup> 已提交，审核中 </sup>
+
+思源笔记集市：设置 -> 集市 -> 挂件 -> sy-post-publisher <sup> 已发布，等待 D 大合并中 </sup>
+
+## 开始上手
+
+参考：[快速配置](https://docs.publish.terwer.space/docs/getting-started/#%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE)
+
 ## v0.7.0 特性一览 <sup>new</sup>
 
 ⚠️ 特别提醒: `0.7.0`​ 为灰度测试版本，所以随时可能发布 `0.7.x`​ 修复版本，请考虑好之后再升级。
