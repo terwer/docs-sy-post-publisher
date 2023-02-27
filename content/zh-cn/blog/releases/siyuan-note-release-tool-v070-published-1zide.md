@@ -8,14 +8,15 @@ tags:
   - 发布
   - 设置
   - 操作
+  - sy-p-070
 categories:
   - zh-cn
   - blog
-lastmod: '2023-02-28 00:40:36'
+  - releases
+lastmod: '2023-02-28 00:43:01'
 toc: true
-keywords: 配置,支持,发布,设置,操作
-description: >-
-  经过一段时间的重构和优化之后终于和大家见面了。v特性一览new⚠️特别提醒_​为灰度测试版本所以随时可能发布x​修复版本请考虑好之后再升级。picgo相关新增用户友好的picgo图形化配置界面优化picgo配置支持picgo插件（目前支持水印sminio三个插件）picgo默认图床为githubpicgo支持图片重命名云床配置buffer读取报错问题测试常用图床picgo引入事件监听机制支持事件注册事件发布picgo支持读取多个图床单个图床支持多份配置系统配置相关整合系统所有配置项提供统一的配置入口底部的
+keywords: 配置,支持,发布,设置,操作,sy-p-070
+description: 经过一段时间的重构和优化之后终于和大家见面了。
 isCJKLanguage: true
 ---
 
