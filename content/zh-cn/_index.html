@@ -28,7 +28,7 @@ linkTitle = "思源笔记发布工具"
 	<a class="btn btn-lg btn-primary mr-3 mb-4" target="_blank" href="https://github.com/terwer/src-sy-post-publisher">
 		项目源码 <i class="fab fa-github ml-2 "></i>
 	</a>
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="{{< relref "#v070-特性一览supnewsup" >}}">
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="{{< relref "#v080-特性一览supnewsup" >}}">
 		新特性 <sup>New</sup> <i class="fas fa-comment ml-2 "></i>
 	</a>
 	<p class="lead mt-5"> 将 思源笔记 的文章发布到支持的平台的 思源笔记挂件</p>
@@ -75,50 +75,38 @@ linkTitle = "思源笔记发布工具"
 
   - 链滴社区
 
-- 最近更新<sup>0.7.0</sup>
+- 最近更新<sup>0.8.0</sup>
 
-  2023-02-28
+  2023-03-26
 
-    ## v0.7.0 特性一览<sup>new</sup>
+    ## v0.8.0 特性一览<sup>new</sup>
 
-    ⚠️ 特别提醒: `0.7.0` 为灰度测试版本，所以随时可能发布 `0.7.x` 修复版本，请考虑好之后再升级。
+    ### Bug 修复
 
-    ### PicGO 相关
+    * 修复普通挂件版使用方式 WordPress 和博客园发布文章报错问题
+    * 修复图片有备注时无法上传问题，现在支持显示备注为图片的 alt
+    * 修复 PicGo 设置中的时间戳重命名关闭后会自动打开的问题
+    * #434 文章没有图片时候图床错误文章发布失败
 
-    - 新增用户友好的 PicGO 图形化配置界面
-    - 优化 PicGO 配置，支持 PicGO 插件（目前支持水印、s3、minio三个插件）
-    - PicGO默认图床为github
-    - PicGO支持图片重命名
-    - 云床配置buffer读取报错问题，测试常用图床
-    - PicGO引入事件监听机制，支持事件注册、事件发布
-    - PicGO支持读取多个图床，单个图床支持多份配置
+    ### 新特性
 
-    ### 系统配置相关
+    * 发布至语雀支持笔记间的内部链接替换
+    * 博客园、WordPress、Typecho 平台支持笔记间的内部链接替换
+    * Github 平台（HUGO、Hexo、Vitepress 等）支持笔记间的内部链接替换
+    * 普通挂件版使用方式支持使用图床[受限于 Electron 机制，主窗口直接上传会导致内核崩溃，目前仅支持链接替换，上传仍需打开新窗口]
 
-    - 整合系统所有配置项，提供统一的配置入口底部的【偏好设置】
-    - 统一整合导入导出操作位底部的【导入导出】
-    - 整合【思源 API 地址】设置到【偏好设置】的一个 tab 页
-    - 整合原通用设置为【个性设置】，操作入口移到【偏好设置】的一个 tab 页
+    ### 开发重构
 
-    ### 发布体验相关
+    * 移除不必要的日志打印
+    * #420 ankisiyuan.bin（仅支持 Mac） 默认不提供，手动下载，减小打包体积
+    * 鉴于主窗口直接上传会导致内核崩溃，主窗口移除 PicGO 支持，仅支持新窗口模式使用 PicGO
 
-    - 【文章绑定】操作非配置项，也是可选功能，放在发布页面容易造成误解，现将操作移入详情页，仅在需要将平台文章与思源笔记建立联系时候使用。新增文章无需操作，新增会自动进行绑定
-    - 修复浏览器插件不能使用http，只能用https问题
-    - 修复typecho发布文章未成功解析文章id
-    - 文章列表图标添加tooltip
-    - 插槽按钮添加文字提示
-    - 新窗口打开时操作按钮fixed不随页面滑动
+    ## 注意事项
 
-    ### 开发者相关
+    1. 图片标题可能部分 Markdown 解析器不支持，但是拖备注和链接大部分平台都可用
+    2. 双链替换需要设置为锚文本链方式，即生成 siyuan://bkock，另外平台设置的平台首页、预览规则也要对。这样就能自动替换成平台专属地址
 
-    - 使用python重构项目构建脚本-支持一键打包
-    - 挂载SyCmd，适配Anki同步（目前仅Mac可用）
-
-    ### 其他
-
-    - 修复已知问题，升级部分组件。
-
-更多新特性介绍请查看 [v0.7.0发布公告](/post/siyuan-note-release-tool-v070-published-1zide.html)
+更多新特性介绍请查看 [v0.8.0发布公告](/post/siyuan-note-release-tool-v080-published-z13fdjr.html)
 
 </div>
 
