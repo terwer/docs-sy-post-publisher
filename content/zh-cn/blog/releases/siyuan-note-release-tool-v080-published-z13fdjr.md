@@ -8,14 +8,15 @@ tags:
   - 笔记
   - 工具
   - 修复
+  - sy-p-080
 categories:
   - zh-cn
   - blog
-lastmod: '2023-03-26 12:40:44'
+  - releases
+lastmod: '2023-03-26 12:45:07'
 toc: true
-keywords: 发布,思源,笔记,工具,修复
-description: >-
-  思源笔记发布工具​低调上线。下载及安装思源笔记发布工具的安装步骤如下_从源码仓库release发版页面​googlechrome商店​microsoftedge商店​下载插件或者在思源笔记集市​下载挂件并添加到页面。源码仓库release发版页面newgooglechrome商店思源笔记发布工具已提交审核中思源笔记发布工具microsoftedgeaddons已提交审核中思源笔记集市_设置sypostpublisher已发布等待d大合并中开始上手参考_快速配置v特性一览newbug修复修复普通挂件版使用方
+keywords: 发布,思源,笔记,工具,修复,sy-p-080
+description: 思源笔记发布工具​低调上线。
 isCJKLanguage: true
 ---
 
